@@ -10,20 +10,16 @@ import {
   FormattedList,
 } from "react-intl";
 
-let initLocale = "en-US";
-if (navigator.language === "es-MX") {
-  initLocale = "es-MX";
-} else if (navigator.language === "ar-XA") {
-  initLocale = "ar-XA";
-}
+let initLocale = "en";
+let ns = "translations";  // namespace
 
 function loadMessages(locale) {
-  return import(`./lang/${locale}.json`);
+  return import(`./lang/${locale}/${ns}.json`);
 }
 
 function getDirection(locale) {
   switch (locale) {
-    case "ar-XA":
+    case "ar":
       return "rtl";
     default:
       return "ltr";
@@ -53,9 +49,9 @@ function App({ locale, direction, onLocaleChange }) {
     <div>
       <div style={{ textAlign: "center" }}>
         <select value={locale} onChange={(e) => onLocaleChange(e.target.value)}>
-          <option value="en-US">en-US</option>
-          <option value="es-MX">es-MX</option>
-          <option value="ar-XA">ar-XA</option>
+          <option value="en">en</option>
+          <option value="es">es</option>
+          <option value="ar">ar</option>
         </select>
       </div>
 
