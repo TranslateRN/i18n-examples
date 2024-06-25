@@ -1,0 +1,21 @@
+{
+    "welcome": "Welcome",
+    "signup": "Create an account",
+    "login": "Login",
+    "logout": "Logout",
+    "trydemo": "Try a demo",
+    "name": "Name",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+
+    "home": "Home",
+    "account": "Account",
+    "settings": "Settings",
+
+    "price": "Price",
+
+    "next": "Next",
+
+    "country": "Country"
+}

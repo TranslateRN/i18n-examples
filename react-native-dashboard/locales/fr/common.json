@@ -1,0 +1,21 @@
+{
+    "welcome": "Bienvenue",
+    "signup": "Ouvrir un compte",
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "trydemo": "Essayer une démo",
+    "name": "Nom",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "email": "Email",
+
+    "home": "Accueil",
+    "account": "Compte",
+    "settings": "Paramètres",
+
+    "price": "Prix",
+
+    "next": "Suivant",
+    
+    "country": "Pays"
+}

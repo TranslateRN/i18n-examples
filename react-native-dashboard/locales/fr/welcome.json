@@ -1,0 +1,14 @@
+{
+    "page1": {
+        "title": "Quoi",
+        "text": "Que pouvez-vous faire avec cette application ?"
+    },
+    "page2": {
+        "title": "Pourquoi",
+        "text": "Pourquoi devriez-vous utiliser cette application ?"
+    },
+    "page3": {
+        "title": "Comment",
+        "text": "Comment fonctionne cette application ?"
+    }
+}

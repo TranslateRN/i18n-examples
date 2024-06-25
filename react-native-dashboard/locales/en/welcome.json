@@ -1,0 +1,14 @@
+{
+    "page1": {
+        "title": "What",
+        "text": "What can you do with this app?"
+    },
+    "page2": {
+        "title": "Why",
+        "text": "Why should you use this app?"
+    },
+    "page3": {
+        "title": "How",
+        "text": "How can you use this app?"
+    }
+}
