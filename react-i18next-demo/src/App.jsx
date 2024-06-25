@@ -1,6 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
+const locales = ["en", "es", "ar", "zh"];
+
 function getDirection(locale) {
   switch (locale) {
     case "ar":
@@ -21,9 +23,11 @@ export default function App() {
           value={locale}
           onChange={(e) => i18n.changeLanguage(e.target.value)}
         >
-          <option value="en">en</option>
-          <option value="es">es</option>
-          <option value="ar">ar</option>
+          {locales.map((lng) => (
+            <option key={lng} value={lng}>
+              {lng}
+            </option>
+          ))}
         </select>
       </div>
       <div

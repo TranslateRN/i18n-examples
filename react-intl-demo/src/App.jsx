@@ -10,11 +10,12 @@ import {
   FormattedList,
 } from "react-intl";
 
-let initLocale = "en";
-let ns = "translations";  // namespace
+const initLocale = "en";
+const locales = ["en", "es", "ar", "zh"];
+const ns = "translations"; // namespace
 
 function loadMessages(locale) {
-  return import(`./lang/${locale}/${ns}.json`);
+  return import(`./locales/${locale}/${ns}.json`);
 }
 
 function getDirection(locale) {
@@ -49,9 +50,11 @@ function App({ locale, direction, onLocaleChange }) {
     <div>
       <div style={{ textAlign: "center" }}>
         <select value={locale} onChange={(e) => onLocaleChange(e.target.value)}>
-          <option value="en">en</option>
-          <option value="es">es</option>
-          <option value="ar">ar</option>
+          {locales.map((lng) => (
+            <option key={lng} value={lng}>
+              {lng}
+            </option>
+          ))}
         </select>
       </div>
 

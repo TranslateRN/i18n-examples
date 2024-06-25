@@ -1,0 +1,9 @@
+{
+  "message.simple": "一个简单的消息。",
+  "message.argument": "嗨，{name}！👋",
+  "message.plural": "{count, plural, one {# 个项目} other {# 个项目}}",
+  "message.select": "{gender, select, male {先生} female {女士} other {用户}}",
+  "message.text-format": "嗨，<b>John</b>！",
+  "message.number-format": "格式化的数字：{num, number, ::K}",
+  "message.currency-format": "格式化的货币：{amount, number, ::currency/USD}"
+}
