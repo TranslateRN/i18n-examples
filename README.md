@@ -14,3 +14,10 @@ This repository contains examples of how to build apps with internationalization
 
 ## Examples
 - [React Intl + Vite demo](./react-intl-demo/)
+- [React i18next + Vite demo](./react-i18next-demo/)
+- [React Native + Expo Dashboard and Navigation](./react-native-dashboard/)
+
+## Support
+Got a problem, question, or concern? Join our community Discord server and share your thoughts!
+
+<a target="_blank" href="https://discord.gg/VtHgKB6pxq"><img src="https://dcbadge.limes.pink/api/server/VtHgKB6pxq" alt="" />
